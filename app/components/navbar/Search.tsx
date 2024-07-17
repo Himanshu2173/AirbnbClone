@@ -47,7 +47,6 @@ const Search: FC<SearchProps> = ({}) => {
 
     return "Add Guests"
   }, [guestCount])
-  // const Search =()=>{
   return (
     <div
       onClick={searchModal.onOpen}
